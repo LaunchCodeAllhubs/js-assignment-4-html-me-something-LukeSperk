@@ -1,1 +1,53 @@
-/* Write your CSS here! */
+body {
+    margin: 8px;
+    display:block;
+    background-color: palegoldenrod;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p {
+    margin: 25px 45px
+}
+
+ul > li {
+    display: inline-block;
+    margin-inline-end: 14px;
+    margin-inline-start: 14px;
+  }
+
+li {
+    padding-inline-start: 20px;
+    padding-inline-end: 20px;
+}
+
+h1 {
+    font-style: italic;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+}
+
+article {
+    border: 22px double cornflowerblue;
+}
+
+#mainHeading {
+    color: red;
+}
+
+.funParagraph {
+    color: green;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
